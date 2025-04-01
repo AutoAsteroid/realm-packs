@@ -1,0 +1,34 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Realm Transfer by Asteroid",
+        "description": "Transfers players from a realm to a server.",
+        "uuid": "2770257c-73a2-49b4-900d-4ac1aeacf5ad",
+        "min_engine_version": [ 1, 21, 50 ],
+        "version": [ 1, 0, 0 ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "2c40bd31-60c2-4dfc-93d1-6696f960c5d8",
+            "version": [ 1, 0, 0 ]
+        },
+        {
+            "type": "script",
+            "uuid": "0a8fb72e-f323-4724-a2c3-9b2bed4da706",
+            "language": "javascript",
+            "entry": "index.js",
+            "version": [ 1, 0, 0 ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.17.0"
+        },
+        {
+            "module_name": "@minecraft/server-admin",
+            "version": "1.0.0-beta"
+        }
+    ]
+}
