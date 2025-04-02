@@ -12,3 +12,5 @@ Intended future additions:
 - Custom Knockback: Real time configurable custom knockback for players.
 
 ## Feel free to copy code and implement it into your own packs!
+To import packs after you edit config files, zip the entire folder contents (not the folder) and rename the zip file extenstion to .mcpack and open it.
+If you zip the entire folder, rename the extension to .mcaddon and open it. The pack will upload to your game.
